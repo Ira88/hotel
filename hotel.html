@@ -17,95 +17,29 @@
   </head>
 
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="flex-container">
-        <a href="hotel.html" class="navigation__logo titel">MIMIHO</a>
-        <nav class="navigation">
-            <a href="" class="navigation__item">Ресторан</a>
-            <a class="navigation__link-current" href="tel:0955559533" class="navigation__link link">
-              <svg
-                class="contact-icon"
-                widht="24"
-                hight="24"
-                viewBox="0 0 20 32"
-              >
-                <use
-                  href="./svg/sprite.svg#icon-fluent_phone-24-regular-1-1"
-                ></use></svg> 095 555 95 33</a
-            >
-      </nav>
-        <div class="navigation__hotel">
-            <a href="hotel.html" class="navigation__item">Готель</a>
-            <a class="navigation__link-currents" href="tel:0668491089" href="tel:0672758540">
-              <svg
-                class="contact-icon"
-                widht="24"
-                hight="24"
-                viewBox="0 0 20 32"
-              >
-                <use
-                  href="./svg/sprite.svg#icon-fluent_phone-24-regular-1-1"
-                ></use></svg>066 849 10 89   067 275 85 40</a
-            >
-            
-      </div>
-      
-        <ul class="social-list list">
-          <li class="social-link">
-            <a href=""><svg class="icons_instagram"
-              widht="40" hight="40" viewBox="0 0 32 32">
-              <use
-                href="./svg/sprite.svg#icon-akar-icons_instagram-fill-1"
-              ></use>
-            </svg>
-          </a>
-          </li>
-          <li class="social-link">
-           <a href=""><svg class="icon-jam_facebook"
-            widht="40" hight="40" viewBox="0 0 32 32">
-            <use href="./svg/sprite.svg#icon-jam_facebook-square-1"></use>
-          </svg></a>
-          </li>
-          <li class="social-link">
-            <a href=""><svg class="icon-la_telegram"
-              widht="40" hight="40" viewBox="0 0 32 32">
-              <use href="./svg/sprite.svg#icon-la_telegram-plane-1"></use>
-            </svg></a>
-          </li>
-        </ul>
-      </div>
-      </div>
-    </header>
     <main>
-      <section class="hero">
-        <div>
-          <h1>MIMIHO</h1>
-          <h2>Готель</h2>
-          <a href="">Україна, м. Полтава, вул. Маршала Бірюзова, 15</a>
-          <button type="button">Забронювати номер</button>
-          <button type="button">Переглянути ціни</button>
-        </div>
-      </section>
       <section class="double-luxe">
         <div class="container">
-          <h3 class="double-luxe__item-titel">Amet minim mollit non</h3>
+          <div class="hotel-about">
+          <h3 class="hotel__item-titel">Amet minim mollit non</h3>
           <h2 class="hotel__title">MIMIHO</h2>
-          <h2 class="hotel__luxe item"><span class="accent">ДВОМІСНИЙ НОМЕР</span> люкс</h2>
-          <p>
+          <h2 class="hotel__luxe item">ДВОМІСНИЙ НОМЕР люкс</h2>
+          <p class="hotel__about item">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. Exercitation
             veniam consequat sunt nostrud amet.
           </p>
-          <img
+        </div>
+          <img class="imeges"
             srcset="./img/Frame8.jpg 1x,
                       ./img/Frame8-2x.jpg 2x"
             src="./img/Frame8.jpg"
             alt="кімната"
             width="460"
           />
-          <ul>
-            <li>
+         
+          <ul class="imeges-list list">
+            <li class="imeges-item">
               <img
                 srcset="./img/Frame10.jpg 1x,
                       ./img/Frame10-2x.jpg 2x"
@@ -114,7 +48,7 @@
                 width="254"
               />
             </li>
-            <li>
+            <li class="imeges-item">
               <img
                 srcset="./img/Frame11.jpg 1x,
                       ./img/Frame11-2x.jpg 2x"
@@ -123,22 +57,28 @@
                 width="254"/>
             </li>
           </ul>
-          <ul>
-            <li>
-              <svg viewBox="0 0 32 32" widht="32" hight="32">
-                <use href="./svg/sprite.svg#icon-cil_arrow-left-1"></use>
+          <ul class="svg-list list">
+            <li class="svg-item">
+              <svg class="svg-icon" viewBox="0 0 32 32" widht="32" hight="32">
+                <use class="svg-icon" href="./svg/sprite.svg#icon-cil_arrow-left-1"></use>
               </svg>
             </li>
             <li>
-              <svg viewBox="0 0 32 32" widht="32" hight="32">
-                <use href="./svg/sprite.svg#icon-cil_arrow-right-1"></use>
+              <svg class="svg-icon" viewBox="0 0 32 32" widht="32" hight="32">
+                <use  href="./svg/sprite.svg#icon-cil_arrow-right-1"></use>
               </svg>
             </li>
           </ul>
-          <div class="btn">
-          <button type="button">Детальніше</button>
-          <button type="button">Переглянути ціни</button>
-        </div>
+          <div class="hotel-wrapper">
+            <ul class="btn-list list">
+              <li class="hotel__btn titel">
+                <button class="hotel__btn" type="button">Детальніше</button>
+              </li>
+          <li class="hotel__btn titel">
+          <button class="hotel__btn" type="button">Переглянути ціни</button>
+        </li>
+        </ul>
+      </div>
         </div>
       </section>
       <section class="nomer3">
