@@ -61,22 +61,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   height: 100px;
 }
 
-.btn {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  color: var(--primary-text-color);
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgba(0, 0, 0, 0.4);
-  border: 2px solid #FFFFFF;
-  border-radius: 25px;
-}
-
 .contact-icon {
   width: 12px;
   height: 20px;
