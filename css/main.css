@@ -254,16 +254,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   }
 }
 
-.line {
-  content: "";
-  position: absolute;
-  border: 1px solid rgba(186, 186, 186, 0.4);
-  -webkit-filter: blur(0.5px);
-          filter: blur(0.5px);
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-}
-
 @media screen and (min-width: 414px) {
   .hotel__item-titel {
     font-family: "Times New Roman";
@@ -502,5 +492,33 @@ h1, h2, h3, h4, h5, h6, p, ul {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 20px;
+  }
+}
+@media screen and (min-width: 414px) {
+  .double-luxe {
+    background-color: #F0ECD6;
+    margin-left: auto;
+    margin-right: auto;
+    width: 414px;
+    height: 1050px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .double-luxe {
+    width: 1024px;
+    height: 838px;
+    padding-top: 62px;
+    padding-bottom: 40px;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .double-luxe {
+    width: 1280px;
+    height: 956px;
+    padding-top: 72px;
   }
 }/*# sourceMappingURL=main.css.map */

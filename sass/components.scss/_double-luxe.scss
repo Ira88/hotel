@@ -22,13 +22,6 @@
         padding-top: 72px;
     } 
 }
-.line{
-    content: "";
-    position: absolute;
-    border: 1px solid rgba(186, 186, 186, 0.4);
-filter: blur(0.5px);
-transform: rotate(-90deg);
-}
 .hotel__item-titel{
     @media screen and (min-width: 414px){
         font-family: 'Times New Roman';

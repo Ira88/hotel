@@ -1,0 +1,24 @@
+.double-luxe{
+    @media screen and (min-width: 414px){
+        background-color: #F0ECD6;
+        margin-left: auto;
+        margin-right: auto;
+        width: 414px;
+        height: 1050px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        position: relative;
+    }
+    @media screen and (min-width: 1024px){
+        width: 1024px;
+        height: 838px;
+        padding-top: 62px;
+        padding-bottom: 40px;
+        position: relative;
+    }
+    @media screen and (min-width: 1280px){
+        width: 1280px;
+        height: 956px;
+        padding-top: 72px;
+    } 
+}
